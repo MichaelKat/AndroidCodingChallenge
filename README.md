@@ -19,22 +19,22 @@ I spent quite some time working on the triangles so that they scale properly on 
 
 Now, you might be wondering, aren't user inputs 1, 2, and 3 somewhat redundant? If so, you are absolutely correct, but alas I was not the one who designed the challenge requirements. Additionally, this redunant setup requires additional error checking, as entering a mismatched set of numbers would make no sense, and would prevent us from accurately performing the calculations. Here is how I handled a user entering mismatched amounts:
 
-![Mismatched Inventory Numbers Error](https://github.com/MichaelKat/AndroidCodingChallenge/blob/master/Images/Inventory_Numbers_Error.png)
+![Mismatched Inventory Numbers Error](https://github.com/MichaelKat/AndroidCodingChallenge/blob/master/Images/Inventory_Numbers_Error.png){:height="600px"}
 
 
 Another possible user error is trying to randomly pick a number of lightbulbs greater than the number of lightbulbs available in inventory, since that is impossible! Here is how I handled it:
 
-![Quantity to Pick too Great](https://github.com/MichaelKat/AndroidCodingChallenge/blob/master/Images/Picking_Error.png)
+![Quantity to Pick too Great](https://github.com/MichaelKat/AndroidCodingChallenge/blob/master/Images/Picking_Error.png){:height="600px"}
 
 
 To continue, a user might start the calculations without filling in some values. I simply decided to handle those cases by treating empty values as the number 0. This is what it looks like - as you can see, the app sees that the quantity of lightbulbs to pick is 0, therefore there are 0 possible different colours:
 
-![Empty String Handling](https://github.com/MichaelKat/AndroidCodingChallenge/blob/master/Images/Empty_String_Error.png)
+![Empty String Handling](https://github.com/MichaelKat/AndroidCodingChallenge/blob/master/Images/Empty_String_Error.png){:height="600px"}
 
 
-Lastly, a more funky error to look out for is if the user decides to run the calculations with 0 simulations - 0 simulations is equivalent to not calculating anything! This is how I handled those cases:
+Lastly, a more funky error to look out for is if the user decides to run the calculations with 0 simulations, as that is equivalent to not calculating anything! This is how I handled those cases:
 
-![Zero Simulations Error](https://github.com/MichaelKat/AndroidCodingChallenge/blob/master/Images/Simulation_Error.png)
+![Zero Simulations Error](https://github.com/MichaelKat/AndroidCodingChallenge/blob/master/Images/Simulation_Error.png){:height="600px"}
 
 
 And that's the gist of it! Let me know if you're interested in an APK to see it in action! :)
