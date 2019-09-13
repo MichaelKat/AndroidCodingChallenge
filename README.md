@@ -12,7 +12,7 @@ First things first, per the challenge requirements, I had to collect user input 
 
 Lastly, I wanted to add a "Run" button to start the simulations, and an output box to show the result. And thus, here is what the app looks like:
 
-![App](https://github.com/MichaelKat/AndroidCodingChallenge/blob/master/Images/Portrait.png)
+<img src="https://github.com/MichaelKat/AndroidCodingChallenge/blob/master/Images/Portrait.png" height="600">
 
 
 I spent quite some time working on the triangles so that they scale properly on different screen sizes, but I got it figured out and am very satisfied with the way they work, and especially the way they look!
